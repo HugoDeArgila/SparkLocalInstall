@@ -5,7 +5,7 @@
 sudo nano /etc/netplan/00-installer-config.yaml
 ```
 ##Paso 2: Escribrir dentro del 00-installer-config.yaml:
-
+``` bash
 network:
   ethernets:
      enp0s3:
@@ -14,7 +14,7 @@ network:
      enp0s8:
         dhcp4: true
   version: 2
-
+```
 ##Paso 3: Instalar Java en VM
 sudo apt upgrade
 sudo apt install openjdk-8-jdk
