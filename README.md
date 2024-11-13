@@ -27,8 +27,8 @@ sudo mv spark-3.5.3-bin-hadoop3 /opt/spark
 ``` 
 ## Paso 4: Añadir variables de entorno al archivo .bashrc
 ``` bash
-# Abrimos el editor de texto para editar el archivo .bashrc
-sudo nano .bashrc (hace falta estar en home)
+# Abrimos el editor de texto para editar el archivo .bashrc (Recomendable hacerlo desde home)
+sudo nano .bashrc 
 ```
 Añadir variables de entorno al archivo:
 ``` bash
