@@ -1,9 +1,9 @@
 # **Instalación de Spark en una VM (Local)** 
 
 ##Paso 1: Editar archivo 00-installer-config.yaml
+``` bash
 sudo nano /etc/netplan/00-installer-config.yaml
-`console.log(sudo nano /etc/netplan/00-installer-config.yaml
-)`
+```
 ##Paso 2: Escribrir dentro del 00-installer-config.yaml:
 
 network:
