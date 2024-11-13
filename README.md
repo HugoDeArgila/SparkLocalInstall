@@ -3,7 +3,7 @@
 ## Paso 1: Instalar Java en VM
 ``` bash
 # Actualizamos la Vm a la última versión
-sudo apt upgrade
+sudo apt updatee
 # Instalamos el java openjdk-8-jdk
 sudo apt install openjdk-8-jdk
 # Comprobamos la versión de Java para comprobar su correcta instalación
