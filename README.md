@@ -1,4 +1,4 @@
-# **Instalación de Spark en una VM (Local)** 
+# **Instalación de Spark en una VM (Local)**  
 
 ## Paso 1: Instalar Java en VM
 Instalamos Java8 
