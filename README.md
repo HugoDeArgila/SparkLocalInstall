@@ -41,7 +41,9 @@ export PATH=$JAVA_HOME/bin:$PATH
 ``` bash
 source ~/.bashrc
 spark-shell
-``` 
+```
+## Iso
+Puedes descargar la ISO desde el archivo 
 ------------------------------------------------------
 
 ### OPCIONAL. Para trabajar con redes privadas
