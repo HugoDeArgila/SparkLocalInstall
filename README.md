@@ -43,7 +43,7 @@ source ~/.bashrc
 spark-shell
 ```
 ## Iso
-Puedes descargar la ISO desde el archivo 
+Puedes descargar la ISO desde el archivo Iso Enlace accediendo al enlace y descargando el iso del onedrive
 ------------------------------------------------------
 
 ### OPCIONAL. Para trabajar con redes privadas
