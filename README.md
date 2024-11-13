@@ -36,15 +36,19 @@ python3 -version
 ``` 
 ## Paso 5: Instalar Spark
 ``` bash
+# Nos conectamos a internet para conseguir el .tar que contiene spark
 wget https://downloads.apache.org/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz
+# Descomprimimos el tar 
 tar -xvf spark-3.5.3-bin-hadoop3.tgz
+# Movemos el contenido del tar a /opt/spark
 sudo mv spark-3.5.3-bin-hadoop3 /opt/spark
 ``` 
-## Paso 6: Añadir variables de entorno al archivo Bash
+## Paso 6: Añadir variables de entorno al archivo .bashrc
 ``` bash
+# Abrimos el editor de texto para editar el archivo .bashrc
 sudo nano .bashrc (hace falta estar en home)
 ```
-Añadir dentro del archivo:
+Añadir variables de entorno al archivo:
 ``` bash
 export SPARK_HOME=/opt/spark
 export PATH=$SPARK_HOME/bin:$PATH
