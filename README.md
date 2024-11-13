@@ -2,9 +2,11 @@
 
 ## Paso 1: Editar archivo 00-installer-config.yaml
 ``` bash
+# Abrimos el editor de texto para editar el archivo 00-installer-config.yaml
 sudo nano /etc/netplan/00-installer-config.yaml
 ```
 ## Paso 2: Escribrir dentro del 00-installer-config.yaml:
+Configuramos el contenido de 00-installer-config.yaml
 ``` bash
 network:
   ethernets:
@@ -16,14 +18,20 @@ network:
   version: 2
 ```
 ## Paso 3: Instalar Java en VM
+Instalamos Java8 
 ``` bash
+# Actualizamos la Vm a la última versión
 sudo apt upgrade
+# Instalamos el java openjdk-8-jdk
 sudo apt install openjdk-8-jdk
+# Comprobamos la versión de Java para comprobar su correcta instalación
 java -version
 ``` 
 ## Paso 4:Instalar Python3 en VM
 ``` bash
+# Instalamos Python3 en la VM
 sudo apt install python3
+# Comprobamos la versión de python3
 python3 -version
 ``` 
 ## Paso 5: Instalar Spark
