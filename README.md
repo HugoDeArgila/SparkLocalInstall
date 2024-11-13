@@ -1,10 +1,10 @@
 # **Instalación de Spark en una VM (Local)** 
 
-##Paso 1: Editar archivo 00-installer-config.yaml
+## Paso 1: Editar archivo 00-installer-config.yaml
 ``` bash
 sudo nano /etc/netplan/00-installer-config.yaml
 ```
-##Paso 2: Escribrir dentro del 00-installer-config.yaml:
+## Paso 2: Escribrir dentro del 00-installer-config.yaml:
 ``` bash
 network:
   ethernets:
@@ -15,29 +15,35 @@ network:
         dhcp4: true
   version: 2
 ```
-##Paso 3: Instalar Java en VM
+## Paso 3: Instalar Java en VM
+``` bash
 sudo apt upgrade
 sudo apt install openjdk-8-jdk
 java -version
-
-##Paso 4:Instalar Python3 en VM
+``` 
+## Paso 4:Instalar Python3 en VM
+``` bash
 sudo apt install python3
 python3 -version
-
-##Paso 5: Instalar Spark
+``` 
+## Paso 5: Instalar Spark
+``` bash
 wget https://downloads.apache.org/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz
 tar -xvf spark-3.5.3-bin-hadoop3.tgz
 sudo mv spark-3.5.3-bin-hadoop3 /opt/spark
-
-##Paso 6: Añadir variables de entorno al archivo Bash
+``` 
+## Paso 6: Añadir variables de entorno al archivo Bash
+``` bash
 sudo nano .bashrc (hace falta estar en home)
-
+```
 Añadir dentro del archivo:
-
+``` bash
 export SPARK_HOME=/opt/spark
 export PATH=$SPARK_HOME/bin:$PATH
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
-
-##Paso 7: Iniciar Spark
+``` 
+## Paso 7: Iniciar Spark
+``` bash
 spark-shell
+``` 
