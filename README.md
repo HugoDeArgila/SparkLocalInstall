@@ -40,7 +40,9 @@ export PATH=$JAVA_HOME/bin:$PATH
 ## Paso 5: Iniciar Spark
 ``` bash
 source ~/.bashrc
-spark-shell
+spark-shell # Scala
+pyspark # pyspark
+spark-sql # SQL
 ```
 ## Iso
 Puedes descargar la ISO desde el archivo Iso Enlace accediendo al enlace y descargando el iso del onedrive
