@@ -39,6 +39,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 ``` 
 ## Paso 5: Iniciar Spark
 ``` bash
+source ~/.bashrc
 spark-shell
 ``` 
 ------------------------------------------------------
