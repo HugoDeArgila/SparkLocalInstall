@@ -1,7 +1,6 @@
 # **Instalación de Spark en una VM (Local)** 
 
 ## Paso 1: Instalar Java en VM
-Instalamos Java8 
 ``` bash
 # Actualizamos la Vm a la última versión
 sudo apt upgrade
