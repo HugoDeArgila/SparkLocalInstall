@@ -5,7 +5,7 @@ sudo apt install openjdk-8-jdk
 sudo apt install python3
 
 cd /opt/spark
-sudo wget https://downloads.apache.org/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz
+sudo wget -N https://downloads.apache.org/spark/spark-3.5.3/spark-3.5.3-bin-hadoop3.tgz
 sudo tar -xvf spark-3.5.3-bin-hadoop3.tgz
 
 cd ~
