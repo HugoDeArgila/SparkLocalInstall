@@ -70,7 +70,7 @@ Tras iniciar Jupyter Notebook, acceder al enlace que te devuelve, sera algo asi:
 http://tuip:9999/tree?token=b915a2fa08ebb6578ecfc31420f8bc754325f08490173570
 ```
 
-### paso 5: Pagina Web
+### Paso 5: Pagina Web
 Iniciar sesión con el token, en mi ejemplo es: b915a2fa08ebb6578ecfc31420f8bc754325f08490173570
 ![image](https://github.com/user-attachments/assets/ad58c709-a7db-4a7d-8afa-bf0b767077a0)
 
