@@ -44,8 +44,31 @@ spark-shell # Scala
 pyspark # pyspark
 spark-sql # SQL
 ```
-## Iso
+------------------------------------------------------
+## Jupyter Notebook
 
+### Paso 1: Instalar Jupyter
+``` bash
+sudo apt install python3-pip
+pip install notebook
+
+sudo apt install jupyter-core
+```
+### Paso 2: Instalar pyspark
+``` bash
+pip install findspark
+``` 
+
+### Paso 3: Iniciar Jupyter
+``` bash
+jupyter notebook --ip=127.0.0.1 --port=8888 --no-browser # Cambiar el puerto segun la disponibilidad
+```
+Tras iniciar Jupyter Notebook, acceder al enlace que te devuelve, sera algo asi:
+``` bash
+http://127.0.0.1:9999/tree?token=b915a2fa08ebb6578ecfc31420f8bc754325f08490173570
+```
+------------------------------------------------------
+## Iso
 Puedes descargar la ISO desde el archivo Iso Enlace accediendo al enlace y descargando el iso del onedrive
 ### Paso 1: Clonar repositorio
 ``` bash
