@@ -1,4 +1,29 @@
 # **Instalación de Spark en una VM (Local)** 
+## Iso
+Puedes descargar la ISO desde el archivo Iso Enlace accediendo al enlace y descargando el iso del onedrive
+### Paso 1: Clonar repositorio
+``` bash
+git clone http://github.com/Mikemaranon/linux-cosas.git
+```
+### Paso 2: Dar permisos de ejecución
+``` bash
+sudo chmod +x installSpark.sh
+sudo chmod +x sour.sh
+```
+### Paso 3: Ejecutar source en caso de no tener spark
+``` bash
+source ~/.bashrc
+```
+###  Paso 4: Iniciar spark
+``` bash
+# scala
+spark-shell
+# PySpark
+pyspark
+# SQL
+spark-sql
+```
+---------------------------------------------
 
 ## Paso 1: Instalar Java en VM
 ``` bash
@@ -62,6 +87,7 @@ pip install findspark
 Tener un solo adaptador de red en la VM y que sea adaptador puente
 
 ### Paso 4: Iniciar Jupyter
+Reiniciar la VM antes de jupyter notebook
 ``` bash
 jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser # Cambiar el puerto segun la disponibilidad
 ```
@@ -74,31 +100,6 @@ http://tuip:9999/tree?token=b915a2fa08ebb6578ecfc31420f8bc754325f08490173570
 Iniciar sesión con el token, en mi ejemplo es: b915a2fa08ebb6578ecfc31420f8bc754325f08490173570
 ![image](https://github.com/user-attachments/assets/ad58c709-a7db-4a7d-8afa-bf0b767077a0)
 
-------------------------------------------------------
-## Iso
-Puedes descargar la ISO desde el archivo Iso Enlace accediendo al enlace y descargando el iso del onedrive
-### Paso 1: Clonar repositorio
-``` bash
-git clone http://github.com/Mikemaranon/linux-cosas.git
-```
-### Paso 2: Dar permisos de ejecución
-``` bash
-sudo chmod +x installSpark.sh
-sudo chmod +x sour.sh
-```
-### Paso 3: Ejecutar source en caso de no tener spark
-``` bash
-source ~/.bashrc
-```
-###  Paso 4: Iniciar spark
-``` bash
-# scala
-spark-shell
-# PySpark
-pyspark
-# SQL
-spark-sql
-```
 ------------------------------------------------------
 
 ### OPCIONAL. Para trabajar con redes privadas
