@@ -45,7 +45,30 @@ pyspark # pyspark
 spark-sql # SQL
 ```
 ## Iso
+
 Puedes descargar la ISO desde el archivo Iso Enlace accediendo al enlace y descargando el iso del onedrive
+### clonar repositorio
+``` bash
+git clone http://github.com/Mikemaranon/linux-cosas.git
+```
+### dar permisos de ejecución
+``` bash
+sudo chmod +x installSpark.sh
+sudo chmod +x sour.sh
+```
+### ejecutar source en caso de no tener spark
+``` bash
+source ~/.bashrc
+```
+### Iniciar spark
+``` bash
+# scala
+spark-shell
+# PySpark
+pyspark
+# SQL
+spark-sql
+```
 ------------------------------------------------------
 
 ### OPCIONAL. Para trabajar con redes privadas
