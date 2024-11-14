@@ -47,20 +47,20 @@ spark-sql # SQL
 ## Iso
 
 Puedes descargar la ISO desde el archivo Iso Enlace accediendo al enlace y descargando el iso del onedrive
-### clonar repositorio
+### Paso 1: Clonar repositorio
 ``` bash
 git clone http://github.com/Mikemaranon/linux-cosas.git
 ```
-### dar permisos de ejecución
+### Paso 2: Dar permisos de ejecución
 ``` bash
 sudo chmod +x installSpark.sh
 sudo chmod +x sour.sh
 ```
-### ejecutar source en caso de no tener spark
+### Paso 3: Ejecutar source en caso de no tener spark
 ``` bash
 source ~/.bashrc
 ```
-### Iniciar spark
+###  Paso 4: Iniciar spark
 ``` bash
 # scala
 spark-shell
