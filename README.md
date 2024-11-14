@@ -100,6 +100,29 @@ http://tuip:9999/tree?token=b915a2fa08ebb6578ecfc31420f8bc754325f08490173570
 Iniciar sesión con el token, en mi ejemplo es: b915a2fa08ebb6578ecfc31420f8bc754325f08490173570
 ![image](https://github.com/user-attachments/assets/ad58c709-a7db-4a7d-8afa-bf0b767077a0)
 
+### Paso 6: EJEMPLO
+``` bash
+!pip install pandas
+```
+``` bash
+import pandas as pd
+ 
+# Crear un diccionario con los datos
+data = {
+    'Nombre': ['Ana', 'Luis', 'Carlos', 'María', 'Elena'],
+    'Edad': [23, 34, 45, 29, 35],
+    'Ciudad': ['Madrid', 'Barcelona', 'Sevilla', 'Valencia', 'Bilbao'],
+    'Puntuación': [85, 90, 78, 92, 88]
+}
+ 
+# Crear el DataFrame
+df = pd.DataFrame(data)
+ 
+# Mostrar el DataFrame
+df
+```
+![image](https://github.com/user-attachments/assets/c3766876-732c-4c80-b9d1-f0c9edc2948e)
+
 ------------------------------------------------------
 
 ### OPCIONAL. Para trabajar con redes privadas
