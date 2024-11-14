@@ -58,14 +58,16 @@ sudo apt install jupyter-core
 ``` bash
 pip install findspark
 ``` 
+### Paso 3: Configurar Adaptador VM
+Tener un solo adaptador de red en la VM y que sea adaptador puente
 
-### Paso 3: Iniciar Jupyter
+### Paso 4: Iniciar Jupyter
 ``` bash
-jupyter notebook --ip=127.0.0.1 --port=8888 --no-browser # Cambiar el puerto segun la disponibilidad
+jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser # Cambiar el puerto segun la disponibilidad
 ```
 Tras iniciar Jupyter Notebook, acceder al enlace que te devuelve, sera algo asi:
 ``` bash
-http://127.0.0.1:9999/tree?token=b915a2fa08ebb6578ecfc31420f8bc754325f08490173570
+http://tuip:9999/tree?token=b915a2fa08ebb6578ecfc31420f8bc754325f08490173570
 ```
 ------------------------------------------------------
 ## Iso
